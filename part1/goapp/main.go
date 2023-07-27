@@ -113,7 +113,7 @@ func userPlaySecret(client *vault.Client, err error) {
 
 func main() {
 	log.Println(">>>>>>>>>>>>>>>>>>>>>>>>>> Start root playing >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-	rootClient, rerr := auth("hvs.EHHGWWufRijnM97ui6HSw6Sc")
+	rootClient, rerr := auth("your token")
 	if rerr != nil {
 		log.Fatalf("unable to initialize Vault client: %v", rerr)
 	}
